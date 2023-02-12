@@ -1,0 +1,49 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    background-image: url('background.jpg');
+}
+
+.background {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    /* justify-content: center; */
+    background-image: url('background.jpg');
+}
+.conteiner {
+    height: auto;
+    width: 60%;
+    background-color: aliceblue;
+    padding:  4%;
+    display: flexbox;
+    justify-content: center;
+    border-radius: 10px;
+    border:2px solid black;
+
+}
+
+.name {
+    text-align: center;
+}
+
+.left {
+    justify-content: right;
+    width:400px;
+}
+
+
+
+li {
+    list-style-type: none;  
+}
+
+.border {
+    border-left:2px solid black;
+    height:470px;
+    padding-right: 25px;
+}
